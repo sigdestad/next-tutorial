@@ -66,6 +66,7 @@ export async function getStaticProps(context: Context) {
     return {
         notFound,
         props,
+        revalidate:60
     }
 }
 
